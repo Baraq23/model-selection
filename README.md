@@ -58,7 +58,7 @@ By working through these notebooks, you will understand:
 
 1. **Clone the repository**:
    ```bash
-   git clone <repository-url>
+   git clone this repo
    cd model-selection
    ```
 
