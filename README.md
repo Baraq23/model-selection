@@ -2,7 +2,7 @@
 
 This repository contains practical implementations of essential model selection and validation techniques using scikit-learn. Each notebook demonstrates a specific aspect of model validation and hyperparameter tuning for machine learning projects.
 
-## 📚 Contents
+##  Contents
 
 ### 1. K-Fold Cross Validation (`k-fold.ipynb`)
 - **Purpose**: Introduction to K-Fold cross-validation fundamentals
@@ -37,14 +37,14 @@ This repository contains practical implementations of essential model selection 
   - Scalability analysis (fit time vs training size)
   - Performance analysis (fit time vs accuracy)
 
-## 🛠 Technologies Used
+##  Technologies Used
 
 - **Python 3.13**
 - **scikit-learn**: Model selection, preprocessing, algorithms
 - **NumPy**: Numerical computations
 - **Matplotlib**: Data visualization (validation_and_learning_curves.ipynb)
 
-## 🎯 Learning Objectives
+##  Learning Objectives
 
 By working through these notebooks, you will understand:
 
@@ -54,7 +54,7 @@ By working through these notebooks, you will understand:
 4. **Performance Analysis**: Using curves to diagnose overfitting, underfitting, and scalability issues
 5. **Best Practices**: Avoiding data leakage and ensuring reproducible results
 
-## 🚀 Getting Started
+##  Getting Started
 
 1. **Clone the repository**:
    ```bash
@@ -78,20 +78,20 @@ By working through these notebooks, you will understand:
    3. `grid_search_cv.ipynb` - Master hyperparameter tuning
    4. `validation_and_learning_curves.ipynb` - Analyze model behavior
 
-## 📊 Key Results
+##  Key Results
 
 - **Cross-validation scores**: R² ≈ 0.602 ± 0.021 (Linear Regression on housing data)
 - **Best hyperparameters**: `max_depth=20`, `n_estimators=100` (Random Forest)
 - **Test performance**: MSE = 0.242 (optimized Random Forest)
 
-## 🔍 Next Steps
+##  Next Steps
 
 - Experiment with different algorithms (SVM, Gradient Boosting)
 - Try advanced techniques (Randomized Search, Bayesian Optimization)
 - Implement custom scoring metrics
 - Add ensemble methods and model stacking
 
-## 📝 Notes
+##  Notes
 
 - All models use `random_state=43` for reproducibility
 - Notebooks include detailed comments explaining each step
